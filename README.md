@@ -1,0 +1,33 @@
+# DSGA1004 - BIG DATA
+## Final project
+
+
+## File Usage Description
+
+
+### 1.baseline_full_script.py
+This script includes all the codes for the baseline: train on downsampled data, tune hyper-parameters, make predictions on validation or test set, and evaluate using three metrics.
+
+
+### 2.downsample_save.py
+This script backs up downsampled train data after repartition.
+
+
+### 3.model_save.py
+This script saves the best-performing model and its userFactors and itemFactors.
+
+
+### 4.lightfm_final.ipynb
+This is a jupyter notebook that performs the LightFM extension on Greene.
+
+
+### 5.fast_search.ipynb
+This is a jupyter notebook that performs the Fast Search extension using Annoy locally.
+
+
+### 6. Training25_Result.xlsx
+This file shows all of our 25% training results.
+
+
+### 7. 1004_Final_Project_Report.pdf
+This is our final report.
